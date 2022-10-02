@@ -1,0 +1,610 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px; /* =1rem */
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background: #34547A;
+    width:100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1125px;
+    width: 100%;
+    margin: auto;
+}
+
+.block {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    margin-top: 50px;
+}
+
+.link {
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+}
+.link:hover {
+    color:#34547A;
+    filter: drop-shadow(0 0 10px black);
+}
+.logo {
+    font-family: 'Revalia', cursive;
+    font-size: 48px;
+    line-height: 60px;
+    color: #34547A;
+}
+
+.navigation {
+    max-width: 612px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_item {
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.section_hero {
+    background:#EEEFF1;
+    padding-top: 250px;
+    padding-bottom: 153px;
+    margin-top: -110px;;
+}
+
+.hero_img {
+    margin-left: 85px;
+}
+
+.hero_info {
+    max-width: 541px;
+    width: 100%;
+}
+
+.hero_title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 79px;    
+    margin-bottom: 60px;
+}
+
+.desc {
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 60px;
+}
+
+.button {
+    padding: 25px 41px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.button_primary {
+    color: #FFFFFF;
+    background: #34547A;
+    transition: all .3s;
+}
+
+.button_primary:hover {
+    background: #162333;
+}
+
+.section_title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 112px;
+}
+
+.block_info {
+    max-width: 540px;
+    width:100%;    
+}
+
+.section_desc {
+    text-align: center;
+}
+.proekti {
+    margin-top: 100px;
+    height: 250px;
+    background-color: #34547A;
+    padding-top: 100px;
+}
+.proekt_img {
+    width: 141px;
+    height: 50px;
+    align-items: center;
+}
+.back_h {
+    margin-left: 20px;
+    margin-top: -23px;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    width: 36px;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+
+.back_p {
+    margin-bottom: -9px;
+    margin-left: -36px;
+    margin-right: 52.33px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+
+.naviki { 
+    padding-top: 102px;
+    padding-bottom: 102px;
+}
+.photo {
+    width: 555px;
+    height: 450px;
+}
+.skills_bar {
+    margin-top: 50px;
+}
+.line {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 445px;
+    height: 4px;
+    background: linear-gradient(to right,#34547A 75%,
+    #C4C4C4 25%)
+}
+.desc_skills {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+}
+.info_title {
+    font-size: 32px;
+}
+
+.work {
+    background: #EEEFF1;
+    padding-bottom: 100px;
+}
+
+
+.video {
+    display: flex;
+    margin-top: -3px;
+    width: 1100px;
+    height: 600px;
+    background-image: url(../img/video.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.video_play {
+    margin: auto;
+    width: 100px;
+    height: 100px;  
+}
+
+.microsoft_photos {
+    padding-top: 28px;
+}
+
+.section_pictures {
+    max-width: 1920px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 28px;
+}
+.pictures_block {
+    display: flex;
+    justify-content: center;
+}
+.container_pictures {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.pic1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.link_img {
+    position: relative;
+    width: 25%; 
+} 
+
+.link_img:hover::before {
+    content:"";
+    background: rgba(52, 84, 122, 0.8) url(../img/eye.png) no-repeat center;
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: index 500;
+}
+
+.photo_microsoft { 
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+    margin-right: 405px;
+    margin-bottom: 100px;
+    margin-left: 405px;
+}
+.microsoft {
+    margin-right:30px;
+}
+
+.sending {
+    background:#EEEFF1;
+}
+
+.form {
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input--half {
+    width: 255px;
+    height: 50px;
+    padding-left:20px;
+    border:none;
+    outline: none;
+}
+
+.input--message {
+    min-height: 175px;
+    margin-bottom: 50px;
+    padding-bottom: 143px;
+    padding-top: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:none;
+    outline: none;
+    resize: none;
+    font-family: roboto, sans-serif;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+
+}
+
+.footer_desc {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.footer_hero {
+    color:#FFFFFF;
+}
+
+.footer_hero_name {
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.footer_hero_desc {
+    font-size: 13px;
+    font-weight: normal;
+    width: 193px ;
+}
+
+
+.vk_link {
+    margin-right: 22px;
+    transition: all .3s;
+}
+
+.vk_link:hover {
+    transform: scale(1.5);
+}
+
+@media (max-width: 1230px) {
+    .photo {
+        width: 80%;
+        height: 80%;
+        margin-left: 5%;
+    }
+    .last_microsoft {
+        margin-right: 0;
+    }
+    .photo_microsoft {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1180px) {
+    .container {
+        max-width: 80%;
+    } 
+    .design_block {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .hero_img {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .projects_6 {
+        display: none
+    }
+    .skills_info {
+        margin-right: 3%;
+    }
+    .photo {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.form-question {
+    margin: auto;
+} 
+
+@media (max-width: 1130px) {
+    .microsoft_4 {
+        display: none;
+    }
+    .microsoft_3 {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1050px) {
+    .hero_title {
+        margin-bottom: 5%;
+        font-size: 35px;
+    }
+     .projects_block {
+         margin-left: 5%;
+     }
+}
+
+@media (max-width: 1000px) {
+    .projects_5 {
+        display: none;
+    }
+    .projects_block {
+        margin-left: 15%;
+    }
+    .skills_info {
+        margin-left: -10%;
+    }
+}
+
+@media (max-width: 900px) {
+    .logo {
+        margin-right: 10%;
+    }
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hero_img {
+        display: none;
+    }
+    .hero_info {
+        margin-left: 20%;
+        text-align: center;
+    }
+    .hero_info_button {
+        max-width: 250px;
+    }
+    .section_hero {
+        padding-top: 130px;
+        padding-bottom: 73px;
+    }
+    .about_me_title {
+        padding-bottom: 25px;
+        padding-top: 50px;
+    }
+    .desc_about_me {
+        margin-bottom: 0;
+    }
+    .photo_microsoft {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    .microsoft_3 {
+        display: none;
+    }
+    .microsoft_2 {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 870px) {
+    .projects_4 {
+        display: none;
+    }
+    .web_site {
+        padding-top: 52px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 840px) {
+    .nav_item {
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+    .navigation {
+        justify-content: center;
+    }
+    .block_hero {
+        display: flex;
+        flex-direction: column;
+    }
+    .photo {
+        margin-left: 7%;
+        width: 70%;
+        height: 70%;
+        margin-left: 5%;
+    }
+    .video {
+        max-height: 500px;
+    }
+    .work {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 730px) {
+    .video {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 685px) {
+    .video {
+        max-height: 300px;
+    }
+    .input_name {
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 650px) {
+    .projects_3 {
+        display: none;
+    }
+    .footer_hero_desc {
+        display: none;
+    }
+    .footer_hero_name {
+        margin-bottom: 0;
+    }
+    .vk_2 {
+        display: none;
+    }
+    .vk_3 {
+        display: none;
+    }
+}
+
+
+@media (max-width: 580px) {
+    .skills_info {
+        margin-right: 0;
+        margin-left: 3%;
+    }
+    .naviki {
+        padding-bottom: 20px;
+    }
+    .microsoft {
+        max-width: 200PX;
+        max-height: 60PX;
+    }
+}
+
+@media (max-width: 500px) {
+    .skills_info {
+        margin-left: 0;
+    }
+    .line {
+        width: 200%;
+    }
+    .skills_info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: -40%;
+    }
+    .input-group {
+        display: block;
+    }
+    .input_name {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .input_mail {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .navigation {
+        display: none;
+    }
+    .block_header {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    .hero_title {
+        font-size: 22px;
+    }
+    .about_me_title {
+        font-size: 25px;
+    }
+    .projects_block {
+        margin-left: 10%;
+    }
+    .form_block {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 390px) {
+    .projects_block {
+        margin-left: 5%;
+    }
+    .back_p {
+        margin-right: 25px;
+    }
+    .video {
+        max-height: 200px;
+    }
+}
+
